@@ -66,8 +66,8 @@ search:
         other: "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
 
 footer:
-    builtWith:
-        other: Built with {{ .Generator }}
+  coverGeneratedWith:
+    other: Cover images generated with {{ .ImagesGeneratedWith }}
 
-    designedBy:
-        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+  poweredBy:
+    other: Built with {{ .Generator }} - Theme {{ .Theme }} designed by {{ .DesignedBy }}
